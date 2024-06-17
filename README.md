@@ -1,0 +1,2 @@
+# DIP_DDPM
+GAI HW4 112-2
