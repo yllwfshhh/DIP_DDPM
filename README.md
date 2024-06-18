@@ -29,7 +29,7 @@ For DIP + DDPM:
 ![image](https://github.com/yllwfshhh/DIP_DDPM/assets/91595538/1c8515b4-c6ae-47f9-ac94-3d08349b0b49)
 
 - Train the model
-- 
+  
 ![image](https://github.com/yllwfshhh/DIP_DDPM/assets/91595538/cab76db7-4361-4c8f-88c1-9943205ccee1)
 
 
