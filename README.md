@@ -2,6 +2,8 @@
 GAI HW4 112-2
 I run this project on colab.
 This DIP model part,it should load dataset from website and generate initial priors, then save them in Google Drive.
+initial_priors_500 is the dataset i used for DIP + DDPM.
+
 Load 'Training configuration' at first.
 
 ![image](https://github.com/yllwfshhh/DIP_DDPM/assets/91595538/f0fe128d-17f2-4d60-931d-270521f22fd5)
