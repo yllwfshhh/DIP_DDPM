@@ -16,14 +16,20 @@ DDPM use the dataset online while DIP + DDPM run my own generated initial priors
 Here's some parts need to change the code manually
 For DDPM:
 - Create a UNet2DModel
+  
 ![image](https://github.com/yllwfshhh/DIP_DDPM/assets/91595538/9d90323d-b646-4722-8f9a-14d5b7216e70)
+
 - Train the model
+
 ![image](https://github.com/yllwfshhh/DIP_DDPM/assets/91595538/d69d1e78-9ff2-4e70-9a52-9dee993ff5ae)
 
 For DIP + DDPM:
 - Create a UNet2DModel
+  
 ![image](https://github.com/yllwfshhh/DIP_DDPM/assets/91595538/1c8515b4-c6ae-47f9-ac94-3d08349b0b49)
+
 - Train the model
+- 
 ![image](https://github.com/yllwfshhh/DIP_DDPM/assets/91595538/cab76db7-4361-4c8f-88c1-9943205ccee1)
 
 
