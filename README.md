@@ -2,9 +2,13 @@
 GAI HW4 112-2
 I run this project on colab.
 This DIP model part,it should load dataset from website and generate initial priors, then save them in Google Drive.
+
 ![image](https://github.com/yllwfshhh/DIP_DDPM/assets/91595538/f0fe128d-17f2-4d60-931d-270521f22fd5)
+
 Here is the DDPM part:
+
 ![image](https://github.com/yllwfshhh/DIP_DDPM/assets/91595538/6b2434b1-d459-4b4a-a266-386add2d2886)
+
 The difference of DDPM and DIP + DDPM architecture is how to load the dataset.
 DDPM use the dataset online while DIP + DDPM run my own generated initial priors folder.
 
