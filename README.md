@@ -10,10 +10,22 @@ Here is the DDPM part:
 ![image](https://github.com/yllwfshhh/DIP_DDPM/assets/91595538/6b2434b1-d459-4b4a-a266-386add2d2886)
 
 The difference of DDPM and DIP + DDPM architecture is how to load the dataset.
+Choose 'Load the dataset' to run DDPM or 'Load Initial Priors' to run DIP + DDPM.
 DDPM use the dataset online while DIP + DDPM run my own generated initial priors folder.
 
-If you want to run DDPM, uncomment the green sections, else these parts should work for DIP + DDPM.
-Remember to comment the one which works for DIP + DDPM.
-![image](https://github.com/yllwfshhh/DIP_DDPM/assets/91595538/6634648b-7008-45cb-b931-35112ca55005)
-![image](https://github.com/yllwfshhh/DIP_DDPM/assets/91595538/ead7da42-db29-4004-b236-c2e3deff4539)
+Here's some parts need to change the code manually
+For DDPM:
+- Create a UNet2DModel
+![image](https://github.com/yllwfshhh/DIP_DDPM/assets/91595538/9d90323d-b646-4722-8f9a-14d5b7216e70)
+- Train the model
+![image](https://github.com/yllwfshhh/DIP_DDPM/assets/91595538/d69d1e78-9ff2-4e70-9a52-9dee993ff5ae)
+
+For DIP + DDPM:
+- Create a UNet2DModel
+![image](https://github.com/yllwfshhh/DIP_DDPM/assets/91595538/1c8515b4-c6ae-47f9-ac94-3d08349b0b49)
+- Train the model
+![image](https://github.com/yllwfshhh/DIP_DDPM/assets/91595538/cab76db7-4361-4c8f-88c1-9943205ccee1)
+
+
+
 
